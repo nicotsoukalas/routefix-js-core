@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>RouteFix</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="header">
+            <h1>RouteFix</h1>
+            <p>Otimize sua rota de entregas</p>
+        </header>
+
+        <section class="card">
+
+            <button id="selecionarArquivo" class="button secondary">
+                📄 Selecionar XLSX
+            </button>
+
+            <input
+                type="file"
+                id="arquivoXlsx"
+                accept=".xlsx,.xls"
+                hidden
+            >
+
+            <div id="arquivoSelecionado" class="file-info">
+                Nenhum arquivo selecionado
+            </div>
+
+            <button
+                id="processar"
+                class="button primary"
+                disabled
+            >
+                ⚡ Processar rota
+            </button>
+
+            <div id="status" class="status">
+                Pronto para começar
+            </div>
+
+        </section>
+
+    </main>
+
+    <script type="module" src="app.js"></script>
+
+</body>
+</html>
