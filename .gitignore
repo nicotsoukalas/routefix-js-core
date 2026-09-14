@@ -26,3 +26,6 @@ Thumbs.db
 # IDE / editor
 .vscode/
 .idea/
+
+# Build do Vite
+dist/
