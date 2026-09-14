@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Resultados gerados
+Resultados_JS/
+Resultados_Python/
+Comparacao_RouteFix.xlsx
+
+# Romaneios reais / dados de entrada
+Romaneio/
+
+# Backups e arquivos compactados
+*.zip
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
